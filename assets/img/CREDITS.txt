@@ -1,0 +1,20 @@
+﻿Фото: Unsplash (Unsplash License — безкоштовне комерційне й некомерційне використання, атрибуція не обов'язкова).
+Джерела (https://unsplash.com/photos/<id>):
+
+hero.jpg          photo-1747240549807-fc3962949818
+band.jpg          photo-1747240031720-dced770be260
+about.jpg         photo-1747238415033-b74eec07eb59
+trial.jpg         photo-1747237602396-20cb5331ee7b
+studio.jpg        photo-1717500252297-b09508db7ceb
+dir-reformer.jpg  photo-1747239685045-fcbcf98985db
+dir-mat.jpg       photo-1767611126399-830f9e6ee0d8
+dir-yoga.jpg      photo-1697060739671-586c21fa5e30
+dir-stretch.jpg   photo-1767611102585-baf80e9be291
+dir-prenatal.jpg  photo-1710897869539-a48e3d69a8d7
+dir-barre.jpg     photo-1770012905139-713758ded6ec
+coach-1.jpg       photo-1544005313-94ddf0286df2
+coach-2.jpg       photo-1534528741775-53994a69daeb
+coach-3.jpg       photo-1674932668403-33398b81c92f
+coach-4.jpg       photo-1581066120470-fb72d80fdd64
+
+Люди на фото не є тренерами студії — це стокові моделі для демо.

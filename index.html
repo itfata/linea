@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linea — студія пілатесу та йоги, Київ</title>
+  <meta name="description" content="Linea — студія пілатесу та йоги на Подолі, Київ. Reformer, Mat Pilates, Yoga Flow, Stretch, Prenatal, Barre. Групи до 6 людей, пробне заняття — 450 грн.">
+  <meta name="theme-color" content="#1B2B26">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Onest:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+  <div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+  <!-- 1. Шапка -->
+  <header class="header is-top" data-header>
+    <div class="header__inner">
+      <nav class="nav" id="site-nav" aria-label="Головне меню" data-nav>
+        <ul class="nav__list nav__list--left">
+          <li><a href="#about">Студія</a></li>
+          <li><a href="#directions">Напрями</a></li>
+          <li><a href="#schedule">Розклад</a></li>
+        </ul>
+        <ul class="nav__list nav__list--right">
+          <li><a href="#prices">Ціни</a></li>
+          <li><a href="#team">Тренери</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+        <a class="btn btn--accent nav__cta-mobile" href="#trial">Пробне заняття</a>
+      </nav>
+
+      <a class="logo" href="#top" aria-label="Linea — на початок сторінки">
+        <span class="logo__word">LIN<b>EA</b></span>
+        <span class="logo__sub">pilates &amp; yoga · kyiv</span>
+      </a>
+
+      <a class="btn btn--outline header__cta" href="#trial">Пробне заняття</a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" data-burger>
+        <span class="visually-hidden">Відкрити меню</span>
+        <span class="burger__line" aria-hidden="true"></span>
+        <span class="burger__line" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 2. Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title" data-hero>
+      <div class="hero__media" aria-hidden="true">
+        <img class="hero__img" src="assets/img/hero.jpg" alt="" data-parallax width="2400" height="1697" fetchpriority="high">
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Студія пілатесу та йоги · Київ, Поділ</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span class="line__inner">Сильне тіло.</span></span>
+          <span class="line"><span class="line__inner"><b>Тиха голова.</b></span></span>
+        </h1>
+        <svg class="hero__line" viewBox="0 0 600 40" preserveAspectRatio="none" aria-hidden="true">
+          <path pathLength="1" d="M0 20 C 80 20 100 6 150 6 S 230 34 300 34 S 400 6 450 6 S 540 20 600 20"/>
+        </svg>
+        <p class="hero__lead">Reformer, класичний пілатес і йога в групах до шести людей — з тренером, який бачить саме вас.</p>
+        <div class="hero__actions">
+          <a class="btn btn--accent btn--lg" href="#trial">Записатися на пробне</a>
+          <a class="btn btn--ghost-light btn--lg" href="#schedule">Розклад</a>
+        </div>
+      </div>
+
+      <div class="hero__bottom container">
+        <dl class="stats">
+          <div class="stat"><dd class="stat__num" data-count="6">6</dd><dt class="stat__label">людей у групі</dt></div>
+          <div class="stat"><dd class="stat__num" data-count="55">55</dd><dt class="stat__label">хвилин заняття</dt></div>
+          <div class="stat"><dd class="stat__num" data-count="4">4</dd><dt class="stat__label">тренери</dt></div>
+        </dl>
+        <div class="breath" aria-hidden="true">
+          <span class="breath__ring"></span>
+          <span class="breath__ring breath__ring--2"></span>
+          <span class="breath__word breath__word--in">вдих</span>
+          <span class="breath__word breath__word--out">видих</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Бігучий рядок -->
+    <section class="marquee" aria-label="Напрями студії">
+      <div class="marquee__track">
+        <ul class="marquee__group">
+          <li>Reformer</li><li>Mat Pilates</li><li>Yoga Flow</li><li>Stretch &amp; Release</li><li>Prenatal</li><li>Barre</li>
+        </ul>
+        <ul class="marquee__group" aria-hidden="true">
+          <li>Reformer</li><li>Mat Pilates</li><li>Yoga Flow</li><li>Stretch &amp; Release</li><li>Prenatal</li><li>Barre</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. Про студію + маніфест -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__card">
+          <figure class="about__photo" data-reveal>
+            <img src="assets/img/about.jpg" alt="Заняття на тренажері Reformer у світлій студії з арками" loading="lazy" width="1400" height="1980">
+          </figure>
+          <div class="about__body" data-manifest>
+            <p class="eyebrow">Про студію</p>
+            <h2 class="h2" id="about-title">Linea — <b>простір тиші</b></h2>
+            <p class="manifest__text" data-words>
+              Ми віримо, що <em>сила</em> — це не напруга, а точність. Кожен рух починається з <em>дихання</em>, кожне заняття — з уваги до себе. Невеликі групи, уважні тренери і світлий простір, де можна сповільнитися й повернутися до <em>спокою</em>.
+            </p>
+            <ul class="facts" role="list">
+              <li><b>8</b> тренажерів Reformer</li>
+              <li><b>240 м²</b> світла й тиші</li>
+              <li><b>7</b> днів на тиждень</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Напрями -->
+    <section class="section directions" id="directions" aria-labelledby="directions-title">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">Напрями</p>
+          <h2 class="h2" id="directions-title">Шість способів <b>відчути тіло</b></h2>
+        </div>
+
+        <ul class="cards" role="list">
+          <li class="card" data-reveal data-card>
+            <img class="card__img" src="assets/img/dir-reformer.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">усі рівні</span>
+              <h3 class="card__title">Reformer</h3>
+              <p class="card__short">Сила і контроль на тренажері з пружинами</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-1" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Reformer</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-1" hidden data-card-panel>
+              <p>Заняття на тренажері з кареткою та пружинами. Опір підлаштовується під вас — від м’якої реабілітації до інтенсивної силової роботи.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 6 людей</li><li>з 16 років</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="reformer">Спробувати</a>
+            </div>
+          </li>
+
+          <li class="card" data-reveal data-card>
+            <img class="card__img" src="assets/img/dir-mat.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">для старту</span>
+              <h3 class="card__title">Mat Pilates</h3>
+              <p class="card__short">Класика на килимку: кор, постава, дихання</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-2" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Mat Pilates</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-2" hidden data-card-panel>
+              <p>Класичний пілатес: глибокі м’язи кору, контроль і чисте дихання. Без обладнання — тільки ви і гравітація.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 8 людей</li><li>килимки є</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="mat">Спробувати</a>
+            </div>
+          </li>
+
+          <li class="card" data-reveal data-card>
+            <img class="card__img" src="assets/img/dir-yoga.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">середній</span>
+              <h3 class="card__title">Yoga Flow</h3>
+              <p class="card__short">Динамічна віньяса в ритмі дихання</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-3" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Yoga Flow</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-3" hidden data-card-panel>
+              <p>Рух іде за диханням, асани перетікають одна в одну. Витривалість, баланс і ясність думок — чудове доповнення до пілатесу.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 10 людей</li><li>усі рівні</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="yoga">Спробувати</a>
+            </div>
+          </li>
+
+          <li class="card" data-reveal data-card>
+            <img class="card__img" src="assets/img/dir-stretch.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">усі рівні</span>
+              <h3 class="card__title">Stretch &amp; Release</h3>
+              <p class="card__short">Повільна розтяжка і робота з фасціями</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-4" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Stretch &amp; Release</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-4" hidden data-card-panel>
+              <p>Глибока розтяжка та міофасціальне розслаблення з роликами. Знімає напругу в шиї, спині та стегнах — ідеально після робочого тижня.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 8 людей</li><li>вечірні слоти</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="stretch">Спробувати</a>
+            </div>
+          </li>
+
+          <li class="card" data-reveal data-card>
+            <img class="card__img card__img--top" src="assets/img/dir-prenatal.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">з ІІ триместру</span>
+              <h3 class="card__title">Prenatal</h3>
+              <p class="card__short">М’яка практика для майбутніх мам</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-5" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Prenatal</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-5" hidden data-card-panel>
+              <p>Дихання, м’язи тазового дна, мобільність і підготовка до пологів. Заняття — лише з дозволу вашого лікаря.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 5 людей</li><li>м’яке навантаження</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="prenatal">Спробувати</a>
+            </div>
+          </li>
+
+          <li class="card" data-reveal data-card>
+            <img class="card__img" src="assets/img/dir-barre.jpg" alt="" loading="lazy">
+            <div class="card__shade" aria-hidden="true"></div>
+            <div class="card__face">
+              <span class="card__chip">інтенсив</span>
+              <h3 class="card__title">Barre</h3>
+              <p class="card__short">Балетний станок плюс пілатес</p>
+            </div>
+            <button class="card__toggle" type="button" aria-expanded="false" aria-controls="dir-6" data-card-toggle>
+              <span class="visually-hidden">Детальніше про Barre</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="card__panel" id="dir-6" hidden data-card-panel>
+              <p>Балетний станок, пілатес і функціональний тренінг. Малі амплітуди, багато повторів — великий результат для ніг і сідниць.</p>
+              <ul class="card__meta"><li>55 хв</li><li>до 8 людей</li><li>під музику</li></ul>
+              <a class="link-arrow" href="#trial" data-direction="barre">Спробувати</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Пауза: широкий кадр і цитата -->
+    <section class="band" id="philosophy" aria-label="Філософія студії" data-band>
+      <div class="band__media" aria-hidden="true">
+        <img class="band__img" src="assets/img/band.jpg" alt="" loading="lazy" data-band-img>
+      </div>
+      <blockquote class="band__quote container" data-reveal>
+        <p>Рух — найкоротший шлях <b>до тиші</b></p>
+        <footer>філософія Linea</footer>
+      </blockquote>
+    </section>
+
+    <!-- 6. Розклад -->
+    <section class="section schedule" id="schedule" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">Розклад</p>
+          <h2 class="h2" id="schedule-title">Тиждень <b>у ритмі Linea</b></h2>
+          <p class="section-head__lead">Сьогоднішній день відкрито автоматично. Запис — в один клік.</p>
+        </div>
+        <div class="schedule__box" data-reveal>
+          <div class="tabs" role="tablist" aria-label="Дні тижня" data-tabs></div>
+          <div class="schedule__panel" role="tabpanel" tabindex="0" data-tabpanel></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Ціни -->
+    <section class="section prices" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">Ціни</p>
+          <h2 class="h2" id="prices-title">Прозоро. <b>Без зайвого.</b></h2>
+        </div>
+        <ul class="plans" role="list">
+          <li class="plan plan--featured" data-reveal>
+            <img class="plan__bg" src="assets/img/studio.jpg" alt="" loading="lazy">
+            <p class="plan__badge">Почніть тут</p>
+            <h3 class="plan__name">Пробне</h3>
+            <p class="plan__price"><span class="plan__sum">450</span> <span class="plan__cur">грн</span></p>
+            <p class="plan__desc">Одне заняття на будь-якому напрямі + діагностика постави.</p>
+            <ul class="plan__list"><li>знайомство з тренером</li><li>підбір напряму</li><li>килимок і рушник</li></ul>
+            <a class="btn btn--accent plan__btn" href="#trial">Записатися</a>
+          </li>
+          <li class="plan" data-reveal>
+            <h3 class="plan__name">4 заняття</h3>
+            <p class="plan__price"><span class="plan__sum">1 600</span> <span class="plan__cur">грн</span></p>
+            <p class="plan__desc">Раз на тиждень — щоб м’яко увійти в ритм.</p>
+            <ul class="plan__list"><li>діє 30 днів</li><li>будь-які напрями</li><li>400 грн за заняття</li></ul>
+            <a class="btn btn--outline-ink plan__btn" href="#trial">Обрати</a>
+          </li>
+          <li class="plan" data-reveal>
+            <h3 class="plan__name">8 занять</h3>
+            <p class="plan__price"><span class="plan__sum">2 900</span> <span class="plan__cur">грн</span></p>
+            <p class="plan__desc">Двічі на тиждень — оптимум для результату.</p>
+            <ul class="plan__list"><li>діє 35 днів</li><li>1 заморозка на 7 днів</li><li>≈ 363 грн за заняття</li></ul>
+            <a class="btn btn--outline-ink plan__btn" href="#trial">Обрати</a>
+          </li>
+          <li class="plan" data-reveal>
+            <h3 class="plan__name">Безліміт</h3>
+            <p class="plan__price"><span class="plan__sum">4 800</span> <span class="plan__cur">грн</span></p>
+            <p class="plan__desc">Для тих, хто не уявляє тижня без студії.</p>
+            <ul class="plan__list"><li>30 днів без обмежень</li><li>пріоритетний запис</li><li>гостьове заняття другу</li></ul>
+            <a class="btn btn--outline-ink plan__btn" href="#trial">Обрати</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8. Тренери -->
+    <section class="section team" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">Команда</p>
+          <h2 class="h2" id="team-title">Люди, які <b>тримають лінію</b></h2>
+        </div>
+        <ul class="trainers" role="list">
+          <li class="trainer" data-reveal>
+            <figure class="trainer__photo"><img src="assets/img/coach-1.jpg" alt="Портрет тренерки Дарини" loading="lazy"></figure>
+            <h3 class="trainer__name">Дарина Мельник</h3>
+            <p class="trainer__role">Reformer · Mat Pilates</p>
+            <p class="trainer__exp">9 років практики</p>
+          </li>
+          <li class="trainer" data-reveal>
+            <figure class="trainer__photo"><img src="assets/img/coach-2.jpg" alt="Портрет тренерки Тетяни" loading="lazy"></figure>
+            <h3 class="trainer__name">Тетяна Бондар</h3>
+            <p class="trainer__role">Yoga Flow · Stretch</p>
+            <p class="trainer__exp">7 років, RYT-500</p>
+          </li>
+          <li class="trainer" data-reveal>
+            <figure class="trainer__photo"><img src="assets/img/coach-3.jpg" alt="Портрет тренерки Софії" loading="lazy"></figure>
+            <h3 class="trainer__name">Софія Лисенко</h3>
+            <p class="trainer__role">Prenatal · Mat Pilates</p>
+            <p class="trainer__exp">6 років, фізична терапевтка</p>
+          </li>
+          <li class="trainer" data-reveal>
+            <figure class="trainer__photo"><img src="assets/img/coach-4.jpg" alt="Портрет тренерки Ірини" loading="lazy"></figure>
+            <h3 class="trainer__name">Ірина Кравець</h3>
+            <p class="trainer__role">Barre · Reformer</p>
+            <p class="trainer__exp">8 років, екс-балерина</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 9. Форма -->
+    <section class="section trial" id="trial" aria-labelledby="trial-title">
+      <div class="container">
+        <div class="trial__card">
+          <div class="trial__media" aria-hidden="true">
+            <img src="assets/img/trial.jpg" alt="" loading="lazy">
+          </div>
+          <div class="trial__body">
+            <p class="eyebrow eyebrow--light">Пробне заняття · 450 грн</p>
+            <h2 class="h2" id="trial-title">Перший крок — <b>найлегший</b></h2>
+            <p class="trial__lead">Залиште контакти, і адміністраторка підбере зручний час.</p>
+
+            <form class="form" novalidate data-form>
+              <div class="field">
+                <label class="field__label" for="f-name">Ім’я</label>
+                <input class="field__input" id="f-name" name="name" type="text" autocomplete="given-name" required minlength="2" aria-describedby="f-name-err">
+                <p class="field__error" id="f-name-err" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="f-phone">Телефон</label>
+                <input class="field__input" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+380 __ ___ __ __" required aria-describedby="f-phone-err">
+                <p class="field__error" id="f-phone-err" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="f-dir">Напрям</label>
+                <div class="select">
+                  <select class="field__input" id="f-dir" name="direction" required aria-describedby="f-dir-err">
+                    <option value="">Оберіть напрям</option>
+                    <option value="reformer">Reformer</option>
+                    <option value="mat">Mat Pilates</option>
+                    <option value="yoga">Yoga Flow</option>
+                    <option value="stretch">Stretch &amp; Release</option>
+                    <option value="prenatal">Prenatal</option>
+                    <option value="barre">Barre</option>
+                    <option value="unsure">Ще не знаю — допоможіть обрати</option>
+                  </select>
+                </div>
+                <p class="field__error" id="f-dir-err" aria-live="polite"></p>
+              </div>
+              <button class="btn btn--accent btn--lg btn--block" type="submit">Записатися на пробне</button>
+            </form>
+
+            <div class="success" hidden tabindex="-1" data-success>
+              <svg class="success__icon" viewBox="0 0 64 64" aria-hidden="true">
+                <circle cx="32" cy="32" r="28" pathLength="1" />
+                <path d="M20 33l8 8 16-17" pathLength="1" />
+              </svg>
+              <h3 class="success__title" data-success-title>Дякуємо!</h3>
+              <p class="success__text">Заявку прийнято. Адміністраторка зателефонує вам протягом 15 хвилин, щоб підібрати зручний час.</p>
+              <button class="btn btn--ghost-light" type="button" data-reset>Заповнити ще раз</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Контакти -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts__grid">
+        <div class="contacts__info" data-reveal>
+          <p class="eyebrow">Контакти</p>
+          <h2 class="h2" id="contacts-title">Тиха вулиця <b>на Подолі</b></h2>
+          <dl class="contacts__list">
+            <div><dt>Адреса</dt><dd>Київ, вул. Липова, 14</dd></div>
+            <div><dt>Години</dt><dd>Пн–Пт 07:00–21:30<br>Сб–Нд 09:00–18:00</dd></div>
+            <div><dt>Телефон</dt><dd><a href="tel:+380443901414">+380 44 390 14 14</a></dd></div>
+            <div><dt>Instagram</dt><dd><a href="#contacts">@linea.studio</a></dd></div>
+          </dl>
+        </div>
+
+        <figure class="map" data-reveal>
+          <svg viewBox="0 0 600 440" role="img" aria-labelledby="map-title">
+            <title id="map-title">Схематична карта: студія Linea біля парку, за два квартали від набережної Дніпра</title>
+            <rect class="map__bg" width="600" height="440" />
+            <path class="map__river" d="M470 -10 C 520 80 450 160 520 250 S 560 380 510 460 L 620 460 L 620 -10 Z" />
+            <path class="map__park" d="M80 60 C 150 40 230 70 220 130 S 120 200 80 170 S 30 80 80 60 Z" />
+            <g class="map__streets">
+              <path d="M0 230 L 470 210" />
+              <path d="M0 330 C 160 320 300 340 490 300" />
+              <path d="M260 0 L 300 440" />
+              <path d="M120 440 L 170 230 L 210 0" />
+              <path d="M380 0 C 370 120 400 260 390 440" />
+            </g>
+            <g class="map__minor">
+              <path d="M0 120 L 470 110" /><path d="M0 400 L 480 390" /><path d="M60 0 L 40 440" />
+            </g>
+            <text class="map__label" x="100" y="120">парк</text>
+            <text class="map__label map__label--river" x="520" y="200">Дніпро</text>
+            <text class="map__label" x="20" y="222">вул. Липова</text>
+            <g class="map__pin" transform="translate(300 218)">
+              <circle class="map__pulse" r="18" />
+              <circle class="map__pulse map__pulse--2" r="18" />
+              <circle class="map__dot" r="9" />
+              <circle class="map__core" r="3.5" />
+            </g>
+            <g transform="translate(316 182)">
+              <rect class="map__tag" width="86" height="30" rx="15" />
+              <text class="map__tag-text" x="43" y="20" text-anchor="middle">LINEA</text>
+            </g>
+          </svg>
+          <figcaption class="map__cap">Схема умовна, не в масштабі.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__word" aria-hidden="true">LIN<b>EA</b></p>
+      <div class="footer__row">
+        <p class="footer__copy">© 2026 Linea · Pilates &amp; Yoga · Київ</p>
+        <p class="footer__credit">Дизайн і розробка — <strong>Fata Digital</strong></p>
+        <a class="link-arrow" href="#top">Нагору</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
